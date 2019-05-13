@@ -4,9 +4,10 @@ Detecting Depression in Tweets using Baye's Theorem
 Depression is a mental illness that is not taken seriously in some countries. I grew up in Mexico and I never got exposure to mental illness education at school or at home. As a kid, I felt sad sometimes and I knew about people getting sad because of difficult times, and even getting depressed but I never thought about people looking for professional help to overcome depression. Some people have been diagnosed with depression and don’t take medication to overcome it. They just continue their lives without medication and getting worse.
 
 There are many experiences that can cause us depression, such losing a loved one, losing a job, getting a divorce and other tough situations can lead a person to feel blue, lonely and overwhelmed. It’s normal to get these feelings when we feel stressed. Everybody have experimented sadness at times. However, depression is very different from this. Depression is a psychiatric disorder that need to be addressed with medication.
+
 Definition of Depression
 
-According to Our World in Data Website, Depressive disorders occur with varying severity. The WHO’s International Classification of Diseases (ICD-10) define this set of disorders ranging from mild to moderate to severe. The The Institute for Health Metrics and Evaluation( IHME) adopt such definitions by disaggregating to mild, persistent depression (dysthymia) and major depressive disorder (severe).
+According to Our World in Data Website, Depressive disorders occur with varying severity. The WHO’s International Classification of Diseases (ICD-10) define this set of disorders ranging from mild to moderate to severe. The Institute for Health Metrics and Evaluation( IHME) adopt such definitions by disaggregating to mild, persistent depression (dysthymia) and major depressive disorder (severe).
 
 All forms of depressive disorder experience some of the following symptoms:
 
@@ -49,7 +50,7 @@ Sentiment140
 The Sentiment140 dataset contains 1,600,000 tweets extracted using the twitter API. The tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. It contains the following 6 fields:
 
     target: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
-    ids: The id of the tweet ( 2087)
+    ids: The id of the tweet (2087)
     date: the date of the tweet (Sat May 16 23:58:44 UTC 2009)
     flag: The query (lyx). If there is no query, then this value is NO_QUERY.
     user: the user that tweeted (robotickilldozr)
